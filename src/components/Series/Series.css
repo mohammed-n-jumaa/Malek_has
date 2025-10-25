@@ -1,0 +1,144 @@
+.series {
+  background: var(--card-bg);
+}
+
+.series-subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  margin-bottom: 50px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.series-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 35px;
+}
+
+.series-card {
+  background: var(--bg-primary);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px var(--shadow);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.series-card:hover {
+  box-shadow: 0 10px 40px rgba(46, 64, 83, 0.25);
+}
+
+.series-thumbnail {
+  position: relative;
+  width: 100%;
+  padding-top: 62.5%; /* 16:10 */
+  overflow: hidden;
+  background: var(--color-secondary);
+}
+
+.series-thumbnail img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.series-card:hover .series-thumbnail img {
+  transform: scale(1.08);
+}
+
+.series-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(46, 64, 83, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.series-card:hover .series-overlay {
+  opacity: 1;
+}
+
+.series-play-btn {
+  background: var(--color-accent);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.series-play-btn:hover {
+  background: var(--color-primary);
+  transform: scale(1.05);
+}
+
+.series-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  backdrop-filter: blur(10px);
+}
+
+.series-badge svg {
+  color: var(--color-accent);
+}
+
+.series-info {
+  padding: 25px;
+}
+
+.series-info h3 {
+  font-size: 1.4rem;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.series-info p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .series-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .series-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .series-play-btn {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+}
