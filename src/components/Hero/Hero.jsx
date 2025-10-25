@@ -75,7 +75,7 @@ const Hero = () => {
               <FaPlay /> مشاهدة أحدث الحلقات
             </button>
             <a 
-              href="https://youtube.com/@MalekYasrah" 
+              href="https://www.youtube.com/@maliikhass" 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn btn-secondary"
