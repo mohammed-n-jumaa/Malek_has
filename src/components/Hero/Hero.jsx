@@ -4,7 +4,7 @@ import './Hero.css';
 
 const Hero = () => {
   // روابط الصور من الإنترنت
-  const heroBg = 'https://i.postimg.cc/15fbj97G/hero-bg.jpg';
+  const heroBg = 'https://i.postimg.cc/MGpJKqPR/hero-bg.jpg';
 
   const scrollToVideos = () => {
     document.getElementById('videos').scrollIntoView({ behavior: 'smooth' });
