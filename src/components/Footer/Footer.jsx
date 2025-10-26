@@ -17,10 +17,10 @@ const Footer = () => {
             <h2>مالك يشرح</h2>
             <p>اكتشف قصصًا ومعارف تُروى بطريقة مختلفة</p>
             <div className="footer-social">
-              <a href="https://youtube.com/@MalekYasrah" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.youtube.com/@maliikhass" target="_blank" rel="noopener noreferrer">
                 <FaYoutube />
               </a>
-              <a href="https://instagram.com/malekyasrah" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/malik.hass1/?igsh=d2piM2lwaDMxdXd4&utm_source=qr#" target="_blank" rel="noopener noreferrer">
                 <FaInstagram />
               </a>
               <a href="https://twitter.com/malekyasrah" target="_blank" rel="noopener noreferrer">
