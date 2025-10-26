@@ -52,15 +52,15 @@ const Hero = () => {
             transition={{ delay: 0.9, duration: 0.8 }}
           >
             <div className="stat-item">
-              <h3>150+</h3>
+              <h3>50+</h3>
               <p>فيديو</p>
             </div>
             <div className="stat-item">
-              <h3>50K+</h3>
+              <h3>2K+</h3>
               <p>مشترك</p>
             </div>
             <div className="stat-item">
-              <h3>200+</h3>
+              <h3>25+</h3>
               <p>ساعة محتوى</p>
             </div>
           </motion.div>

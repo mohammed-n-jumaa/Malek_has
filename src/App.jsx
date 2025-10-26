@@ -32,7 +32,7 @@ function App() {
       <Hero />
       <About />
       <Videos />
-      <Series />
+{/* <Series /> */}
       <Contact />
       <Footer />
     </div>
