@@ -20,7 +20,7 @@ const About = () => {
     {
       icon: <FaUsers />,
       title: "مجتمع متفاعل",
-      description: "أكثر من  3 متابع نشط"
+      description: "أكثر من  3k متابع نشط"
     }
   ];
 
